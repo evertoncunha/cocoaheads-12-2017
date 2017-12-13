@@ -1,0 +1,4 @@
+- Copy the MVVMW folder to:
+~/Library/Developer/Xcode/Templates/
+
+When you are going to add a new file in Xcode, you will see it at the bottom of iOS section as MVVMW > Scene.
