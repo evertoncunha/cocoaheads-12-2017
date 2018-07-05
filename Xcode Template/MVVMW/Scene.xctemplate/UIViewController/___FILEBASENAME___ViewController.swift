@@ -17,8 +17,8 @@ class ___VARIABLE_sceneName___ViewController: UIViewController
   
   // MARK: - Object lifecycle
   
-  init(viewModel: ___VARIABLE_sceneName___ViewModel) {
-    self.viewModel = viewModel
+  init(viewModel: ___VARIABLE_sceneName___ViewModel?) {
+    self.viewModel = viewModel ?? ___VARIABLE_sceneName___ViewModel()
     super.init(nibName: nil, bundle: nil)
   }
   
@@ -45,6 +45,10 @@ class ___VARIABLE_sceneName___ViewController: UIViewController
   }
   
   func createConstraints() {
+//    let dict: [String: Any] = [
+//
+//    ]
+    
     
   }
   
